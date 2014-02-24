@@ -1,3 +1,5 @@
 alias ll='ls -la'
 alias lh='ls -lah'
+alias l='ls -lh'
 alias ...='cd ../..'
+alias rm='rm -i'
