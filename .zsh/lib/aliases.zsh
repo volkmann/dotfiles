@@ -4,3 +4,5 @@ alias ...='cd ../..'
 alias now='date +%s'
 alias l='ls -lh'
 alias rm='rm -i'
+alias open=kde-open
+
