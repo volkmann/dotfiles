@@ -1,0 +1,22 @@
+# Short summary of changes
+# |<----  Using a maximum of 50 Characters  ---->|
+
+
+# Description
+# |<----      Limit each line to a maximum of 72 characters       ---->|
+
+
+#[ticket: #]
+
+#======================================================================
+# 1. Summary should be imperative (not past tense), 50 characters or
+#    less, and not end with a period.
+#
+# 2. Description of commit should explain WHY a change was made and
+#    lines should be wrapped to 72 characters. The blank line
+#    separating the summary from the body is critical (unless you omit
+#    the body entirely)
+#
+# 3. Optionally, reference a ticket number.
+#======================================================================
+
