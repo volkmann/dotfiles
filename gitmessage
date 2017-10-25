@@ -18,5 +18,9 @@
 #    the body entirely)
 #
 # 3. Optionally, reference a ticket number.
+#
+# Tip: If it seems difficult to summarize what your commit does, it may
+#      be because it includes several logical changes or bug fixes and
+#      are better split up into several commits using git add -p.
 #======================================================================
 
