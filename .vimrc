@@ -16,6 +16,13 @@ set number
 set ruler
 set cursorline
 
+set laststatus=2
+
+let &colorcolumn="81,101,".join(range(121,999),",")
+highlight ColorColumn ctermbg=234
+
+let g:vimtex_compiler_latexmk = {'callback' : 0}
+
 " Disable Backup and Swap files
 set noswapfile
 set nobackup
