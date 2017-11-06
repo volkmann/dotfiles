@@ -1,6 +1,7 @@
 # TODO: Explain what some of this does..
 
-bindkey -e
+bindkey -v # vi mode
+#bindkey -e
 bindkey '\ew' kill-region
 bindkey -s '\el' "ls\n"
 bindkey -s '\e.' "..\n"
