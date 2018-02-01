@@ -32,7 +32,7 @@ set nowritebackup
 set encoding=utf-8
 
 " Whitespace stuff
-set nowrap
+"set nowrap
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
@@ -125,3 +125,7 @@ let g:ackprg = 'ag --nogroup --nocolor --column'
 " Gitgutter
 let g:gitgutter_sign_column_always = 1
 set updatetime=250
+
+" set spell check for gitcommit
+autocmd FileType gitcommit setlocal spell spelllang=en_us
+
