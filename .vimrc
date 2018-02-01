@@ -109,6 +109,9 @@ au FileType python set softtabstop=4 tabstop=4 shiftwidth=4 textwidth=79
 " Ruby style @pre-sense.de
 au FileType ruby set softtabstop=4 tabstop=4 shiftwidth=4
 
+" AsciiDoc
+au BufNewFile,BufRead *.asciidoc,*.adoc setf asciidoc
+
 " ctrp custom ignores
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.eunit$',
