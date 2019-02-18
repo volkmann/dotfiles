@@ -18,6 +18,23 @@ set cursorline
 
 set laststatus=2
 
+" lightline settings
+let g:lightline = {
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'fugitive#head',
+      \   'filename': 'FilenameForLightline'
+      \ },
+      \ }
+
+" Show full path of filename
+function! FilenameForLightline()
+  return expand('%')
+endfunction
+
 let &colorcolumn="81,101,".join(range(121,999),",")
 highlight ColorColumn ctermbg=234
 
