@@ -59,3 +59,6 @@
 [submodule ".vim/bundle/vim-fugitive"]
 	path = .vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule ".vim/bundle/vim-reek"]
+	path = .vim/bundle/vim-reek
+	url = https://github.com/rainerborene/vim-reek.git
