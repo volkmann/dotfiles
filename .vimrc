@@ -124,11 +124,11 @@ au BufNewFile,BufRead *.json set ft=javascript
 au FileType python set softtabstop=4 tabstop=4 shiftwidth=4 textwidth=79
 
 " Ruby style @pre-sense.de
-au FileType ruby set softtabstop=4 tabstop=4 shiftwidth=4
+au FileType ruby set softtabstop=2 tabstop=2 shiftwidth=2
 
 " AsciiDoc
 au BufNewFile,BufRead *.asciidoc,*.adoc setf asciidoc
-
+au FileType asciidoc set spell spelllang=en_us,de_de
 " ctrp custom ignores
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.eunit$',
@@ -148,4 +148,8 @@ set updatetime=250
 
 " set spell check for gitcommit
 autocmd FileType gitcommit setlocal spell spelllang=en_us
+
+" tracwiki
+au BufRead,BufNewFile *.tracwiki,*.trac setfiletype tracwiki
+au FileType tracwiki set spell spelllang=en_us,de_de
 
