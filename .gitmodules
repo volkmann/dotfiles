@@ -62,3 +62,9 @@
 [submodule ".vim/bundle/vim-reek"]
 	path = .vim/bundle/vim-reek
 	url = https://github.com/rainerborene/vim-reek.git
+[submodule ".vim/bundle/c.vim"]
+	path = .vim/bundle/c.vim
+	url = https://github.com/vim-scripts/c.vim
+[submodule ".vim/bundle/tagbar"]
+	path = .vim/bundle/tagbar
+	url = https://github.com/majutsushi/tagbar
